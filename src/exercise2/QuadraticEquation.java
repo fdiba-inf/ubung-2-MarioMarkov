@@ -10,6 +10,7 @@ public class  QuadraticEquation{
         int a = input.nextInt();
         int b = input.nextInt();
         int c = input.nextInt();
+        
         double x1;
         double x2;
         
