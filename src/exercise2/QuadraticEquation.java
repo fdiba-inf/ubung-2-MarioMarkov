@@ -30,11 +30,11 @@ public class  QuadraticEquation{
 
           }else{
             if(c!=0){
-              System.out.println("No Values ");
+              System.out.println("No values ");
               
             }
             else{
-              System.out.println("Many Values ");
+              System.out.println("Many values ");
             }
           }
         }
