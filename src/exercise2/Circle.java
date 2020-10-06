@@ -8,7 +8,7 @@ public class Circle{
 
     double radius = input.nextInt();
 
-    double circ = 2.0*3.14*radius;
+    double circ = 2.0*Math.PI*radius;
     double area = Math.PI* Math.pow(radius, 2);
 
     System.out.println("Circumference: "+ circ);
