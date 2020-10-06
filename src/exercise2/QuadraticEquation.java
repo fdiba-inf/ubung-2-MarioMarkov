@@ -8,14 +8,14 @@ public class  QuadraticEquation{
         Scanner input = new Scanner(System.in);
 
         int a = input.nextInt();
-        int b = input.nextInt();
-        int c = input.nextInt();
+        double b = input.nextInt();
+        double c = input.nextInt();
         
         double x1;
         double x2;
         
         if(a!=0){
-          int disc= b*b - 4*a*c;
+          double disc= b*b - 4*a*c;
           if(disc>=0){
 
             x1= ((-b+Math.sqrt(disc))/2*a);
