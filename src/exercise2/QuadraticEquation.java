@@ -16,8 +16,9 @@ public class  QuadraticEquation{
         if(a!=0){
           int disc= b*b - 4*a*c;
           if(disc>=0){
-            x1= (-b+Math.sqrt(disc)/2*a);
-            x2= (-b-Math.sqrt(disc)/2*a);
+
+            x1= ((-b+Math.sqrt(disc))/2*a);
+            x2= ((-b-Math.sqrt(disc))/2*a);
             System.out.println(x1+", "+ x2);
 
           }else{
